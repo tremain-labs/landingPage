@@ -1,15 +1,27 @@
-a {
+.navigationbar a {
   color: white;
   text-decoration: none;
+}
+.greeting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navigationbar :hover{
     color: blue;
 }
 .navigationbar{
-    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-li{
+.navigationbar li{
     display: inline;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 header{
     background-color: black;
@@ -17,6 +29,8 @@ header{
     padding: 10px;
     display: flex;
     border: solid 3px silver;
+    border-radius: 14px;
+    justify-content: space-between;
     
 }
 .logo{
@@ -28,3 +42,8 @@ header{
     align-items: center;
     border: solid 3px gold;
 }
+.search{
+    display: inline;
+    align-items: center;
+}
+
