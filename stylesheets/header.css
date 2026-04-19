@@ -1,0 +1,9 @@
+.navigation.ul{
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
