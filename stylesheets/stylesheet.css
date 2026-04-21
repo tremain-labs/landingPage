@@ -1,6 +1,13 @@
+
+
 .projects {
-  padding: 40px 20px;
-  background-color: #f8f8f8;
+    padding: 40px 20px;
+    background: linear-gradient(#00c3ff, black);
+    color: white;
+
+}
+.projects a{
+    color: red;
 }
 
 .project-grid {
@@ -11,8 +18,25 @@
 }
 
 .project {
-  background-color: white;
-  border: 1px solid #ddd;
-  padding: 15px;
-  width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 3px solid red;
+    padding: 15px;
+    width: 300px;
+    transform-style: preserve-3d;  
+}
+
+.projectHeading{
+    text-align: center;
+}
+.glass{
+    inset: 5px;
+    border-radius: 60px;
+    border-left: solid 1px white;
+    border-bottom: solid 1px white;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+    padding: inherit;
+    transform-style: preserve-3d;
 }
