@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="/stylesheets/cloud.css" class="style">
     <link rel="stylesheet" href="/stylesheets/moon.css" class="stylesheet">
     <link rel="stylesheet" href="/stylesheets/header.css" class="style">
     <link rel="stylesheet" href="/stylesheets/stylesheet.css" class="stylesheet">
@@ -30,23 +31,31 @@
     </header>
     <main>
         <section class="projects">
-  <h2>My Projects</h2>
-  <p> Be sure to check out other <a href="/pages/projects.html">Projects</a></p>
+  <h2>Projects that Daniel Tremain has worked on.</h2>
+  <p> Be sure to check out other <a href="/pages/projects.html">Projects</a> that I have done.</p>
   <div class="project-grid">
     <div class="project">
-      <h3>Project 1</h3>
-      <p>A moving sun.</p>
+      <h3>A moving Sun</h3>
       <section class="grandparent">
             <section class="parent">
                 <div class="moon"></div>
             </section>
-      </section><br><br>
-      <p>This is a sun going back and forth made with html and css.</p>
+      </section><br><br><br>
+      <p>This is a sun going back and forth made with html and css using media query.</p>
     </div>
     <div class="project">
-      <img src="https://via.placeholder.com/300x200" alt="Project 2">
-      <h3>Project 2</h3>
-      <p>This is a description of my second project. It demonstrates layout and design skills.</p>
+      <h3>Moving Clouds</h3>
+      <section class="cloudparent">
+            <div id="cloudcontainer">
+                <div class="cloud">
+                    <div class="cloudBubble1"></div>
+                    <div class="cloudBubble2"></div>
+                </div>
+            </div>
+            <script src="/js/cloud.js"></script>
+      </section>
+      
+      <p>Using some CSS, and Javascript I created a simple cloud moving image.</p>
     </div>
     <div class="project">
       <img src="https://via.placeholder.com/300x200" alt="Project 3">
