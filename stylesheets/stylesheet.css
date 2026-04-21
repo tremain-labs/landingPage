@@ -1,0 +1,18 @@
+.projects {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+}
