@@ -40,3 +40,21 @@
     padding: inherit;
     transform-style: preserve-3d;
 }
+
+.stopWatchBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+    border: solid 4px silver;
+    border-radius: 40px;
+    width: 150px;
+    height: 100px;
+}
+
+#stopwatch{
+    background-color: white;
+    color: black;
+}
+
