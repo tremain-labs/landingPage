@@ -1,4 +1,7 @@
-
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
 .projects {
     padding: 40px 20px;
@@ -29,6 +32,8 @@
 
 .projectHeading{
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 .glass{
     inset: 5px;
@@ -43,6 +48,8 @@
 }
 
 .stopWatchBody{
+    margin: 5px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +62,14 @@
 }
 
 #stopwatch{
+    margin: 5px;
+    padding: 5px;
     background-color: white;
     color: black;
 }
-
+.hero{
+    text-align: center;
+    background: linear-gradient(grey, white);
+    margin: 5px;
+    padding: 5px
+}
