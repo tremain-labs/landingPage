@@ -73,3 +73,117 @@
     margin: 5px;
     padding: 5px
 }
+
+.contactForm{
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactHeading{
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+
+.inputForm {
+    position: relative;
+    background: linear-gradient(
+        135deg,
+        #0a0a23,
+        midnightblue,
+        rgb(161, 3, 3)
+    );
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Texture */
+.inputForm::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 25px 25px;
+    opacity: 0.15;
+}
+
+/* Glow accent */
+.inputForm::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(220,20,60,0.25), transparent 70%);
+    top: -60px;
+    right: -60px;
+    filter: blur(50px);
+}
+
+.inputForm::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        radial-gradient(white 1px, transparent 1px),
+        radial-gradient(white 1px, transparent 1px),
+        radial-gradient(rgba(255,255,255,0.6) 1px, transparent 3px);
+
+    background-size:
+        40px 40px,
+        60px 60px,
+        100px 100px;
+
+    background-position:
+        0 0,
+        20px 30px,
+        10px 15px;
+
+    opacity: 0.4;
+}
+
+@keyframes driftStars {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+.inputForm::before {
+    animation: driftStars 15s linear infinite;
+}
+
+.form-grid{
+    display: flex;
+    
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.form{
+    
+    background-color: navy;
+    color: white;
+    border-radius: 30px;
+    border: 3px solid silver;
+    padding: 15px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 440px;
+    transform-style: preserve-3d;
+}
+
+.formGlass{
+    inset: 5px;
+    border-radius: 60px;
+    border-left: solid 1px white;
+    border-bottom: solid 1px white;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+    padding: inherit;
+    transform-style: preserve-3d;
+    
+
+}
