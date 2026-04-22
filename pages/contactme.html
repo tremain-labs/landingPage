@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="/stylesheets/header.css" class="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css" class="stylesheet">
 </head>
 <body>
     <header>
@@ -22,10 +23,27 @@
             <p class="greeting">Welcome to Tremain Labs.</p>
         </div>
         <div class="search">
-                    <input type="text" placeholder="search" id="search">
+                    <input type="text" placeholder="search" id="search"><br>
                     <button type="button">Login In</button>
         </div>
     </header>
+     <main>
+            <h1>Contact us</h1>
+            <p>Please reach out with any questions here.</p>
+            <form>
+                <label for="firstname" required class="contactForm">First name:</label><br>
+                <input type="text" id="firstname" class="contactForm" name="contact" placeholder="Enter your name"><br>
+                <label for="lastname" class="contactForm" required>Last name:</label><br>
+                <input type="text" id="firstname" class="contactForm" name="contact" placeholder="Enter your name"><br>
+                <label for="businessname" class="contactForm">Business name:</label><br>
+                <input type="text" id="businessname" class="contactForm" name="contact" placeholder="Enter your business name"><br>
+                <label for="email" class="contactForm" required>Email:</label><br>
+                <input type="text" id="email" class="contactForm" name="contact" placeholder="Enter your Email"><br>
+                <label for="message" class="contactForm" required>Message:</label><br>
+                <textarea rows="10" cols="50" class="contactForm" id="message" name="contact" placeholder="Enter your message" maxlength="1000"></textarea><br>
+                <button type="submit" class="contactForm" name="contact">Submit</button>
+            </form>
+        </main>
     
 </body>
 </html>
