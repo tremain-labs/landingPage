@@ -39,6 +39,7 @@
     border-top: solid 1px white;
     padding: inherit;
     transform-style: preserve-3d;
+    text-align: -webkit-center;
 }
 
 .stopWatchBody{
