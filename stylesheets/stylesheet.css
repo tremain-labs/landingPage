@@ -5,7 +5,7 @@
 
 .projects {
     padding: 40px 20px;
-    background: linear-gradient(#00c3ff, black);
+    background: linear-gradient(#00c3ff, rgb(43, 42, 42));
     color: white;
 
 }
@@ -27,7 +27,8 @@
     border: 3px solid red;
     padding: 15px;
     width: 300px;
-    transform-style: preserve-3d;  
+    transform-style: preserve-3d; 
+     box-shadow: 0 15px 15px rgba(5, 4, 3, 1);
 }
 
 .projectHeading{
@@ -162,7 +163,6 @@
     flex-wrap: wrap;
 }
 .form{
-    
     background-color: navy;
     color: white;
     border-radius: 30px;
@@ -186,4 +186,22 @@
     transform-style: preserve-3d;
     
 
+}
+
+#glassAbout{
+    width: 400px;
+    width: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 15px 15px rgba(5, 4, 3, 1);
+}
+
+.about{
+    display: flex;
+    background: linear-gradient(grey, white);
+    height: auto;
+    width: auto;
+    
 }
