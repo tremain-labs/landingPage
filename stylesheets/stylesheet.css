@@ -7,6 +7,8 @@
     padding: 40px 20px;
     background: linear-gradient(#00c3ff, rgb(43, 42, 42));
     color: white;
+    height: auto;
+    width: auto;
 
 }
 .projects a{
@@ -46,6 +48,8 @@
     padding: inherit;
     transform-style: preserve-3d;
     text-align: -webkit-center;
+    width: auto;
+    height: auto;
 }
 
 .stopWatchBody{
@@ -69,9 +73,11 @@
     color: black;
 }
 .hero{
+    
     text-align: center;
     background: linear-gradient(grey, white);
-    margin: 5px;
+    height: auto;
+    width: auto;
     padding: 5px
 }
 
@@ -189,7 +195,7 @@
 }
 
 #glassAbout{
-    width: 400px;
+    
     width: auto;
     display: flex;
     align-content: center;
@@ -204,4 +210,14 @@
     height: auto;
     width: auto;
     
+}
+
+#glassHero{
+    
+    width: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 15px 15px rgba(5, 4, 3, 1);
 }
