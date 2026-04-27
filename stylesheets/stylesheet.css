@@ -221,3 +221,11 @@
     margin: 30px;
     box-shadow: 0 15px 15px rgba(5, 4, 3, 1);
 }
+
+#projectHeading{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+}
