@@ -30,7 +30,7 @@
     padding: 15px;
     width: 300px;
     transform-style: preserve-3d; 
-     box-shadow: 0 15px 15px rgba(5, 4, 3, 1);
+    box-shadow: 0 15px 15px rgba(5, 4, 3, 1);
 }
 
 .projectHeading{
@@ -84,6 +84,7 @@
 .contactForm{
     padding: 5px;
     margin: 5px;
+    
 }
 
 .contactHeading{
@@ -93,7 +94,7 @@
 }
 
 .inputForm {
-    position: relative;
+    
     background: linear-gradient(
         135deg,
         #0a0a23,
@@ -107,7 +108,7 @@
 /* Texture */
 .inputForm::before {
     content: "";
-    position: absolute;
+    
     inset: 0;
     background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
     background-size: 25px 25px;
@@ -117,7 +118,7 @@
 /* Glow accent */
 .inputForm::after {
     content: "";
-    position: absolute;
+    
     width: 250px;
     height: 250px;
     background: radial-gradient(circle, rgba(220,20,60,0.25), transparent 70%);
@@ -128,7 +129,7 @@
 
 .inputForm::before {
     content: "";
-    position: absolute;
+    
     inset: 0;
 
     background-image:
@@ -164,21 +165,21 @@
 
 .form-grid{
     display: flex;
-    
+    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
 }
 .form{
-    background-color: navy;
+    background-color: black;
     color: white;
     border-radius: 30px;
-    border: 3px solid silver;
+    border: 3px solid red;
     padding: 15px;
-    margin-left: 150px;
+    
     margin-top: 50px;
     margin-bottom: 50px;
     width: 440px;
     transform-style: preserve-3d;
+    box-shadow: 0 15px 15px rgba(5, 4, 3, 1);
 }
 
 .formGlass{
@@ -228,4 +229,13 @@
     height: auto;
     justify-content: center;
     margin-bottom: 30px;
+}
+#contactHeading{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    background-color: black;
+    border: solid 3px red;
+    margin: 16px;
 }
